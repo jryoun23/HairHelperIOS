@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		A773E8FA262A542100A66664 /* profileImage.png in Resources */ = {isa = PBXBuildFile; fileRef = A773E8F9262A542100A66664 /* profileImage.png */; };
+		A773E906262A58E700A66664 /* hairCutTitle.png in Resources */ = {isa = PBXBuildFile; fileRef = A773E905262A58E700A66664 /* hairCutTitle.png */; };
 		A7FB301426211405005606E1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7FB301326211405005606E1 /* AppDelegate.swift */; };
 		A7FB301626211405005606E1 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7FB301526211405005606E1 /* SceneDelegate.swift */; };
 		A7FB301826211405005606E1 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7FB301726211405005606E1 /* ViewController.swift */; };
@@ -14,9 +16,15 @@
 		A7FB301E26211405005606E1 /* HairHelper.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = A7FB301C26211405005606E1 /* HairHelper.xcdatamodeld */; };
 		A7FB302026211406005606E1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A7FB301F26211406005606E1 /* Assets.xcassets */; };
 		A7FB302326211406005606E1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A7FB302126211406005606E1 /* LaunchScreen.storyboard */; };
+		A7FB303126223B3F005606E1 /* hairModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7FB303026223B3F005606E1 /* hairModel.swift */; };
+		A7FB304426225D52005606E1 /* selectProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7FB304326225D52005606E1 /* selectProfileViewController.swift */; };
+		A7FB3048262288B2005606E1 /* contentViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7FB3047262288B2005606E1 /* contentViewController.swift */; };
+		A7FB304C2622BD3E005606E1 /* mapSearchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7FB304B2622BD3E005606E1 /* mapSearchViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		A773E8F9262A542100A66664 /* profileImage.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = profileImage.png; sourceTree = "<group>"; };
+		A773E905262A58E700A66664 /* hairCutTitle.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = hairCutTitle.png; sourceTree = "<group>"; };
 		A7FB301026211405005606E1 /* HairHelper.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HairHelper.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A7FB301326211405005606E1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		A7FB301526211405005606E1 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -26,6 +34,10 @@
 		A7FB301F26211406005606E1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A7FB302226211406005606E1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		A7FB302426211406005606E1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A7FB303026223B3F005606E1 /* hairModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = hairModel.swift; sourceTree = "<group>"; };
+		A7FB304326225D52005606E1 /* selectProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = selectProfileViewController.swift; sourceTree = "<group>"; };
+		A7FB3047262288B2005606E1 /* contentViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = contentViewController.swift; sourceTree = "<group>"; };
+		A7FB304B2622BD3E005606E1 /* mapSearchViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = mapSearchViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,10 +74,16 @@
 				A7FB301526211405005606E1 /* SceneDelegate.swift */,
 				A7FB301726211405005606E1 /* ViewController.swift */,
 				A7FB301926211405005606E1 /* Main.storyboard */,
+				A773E905262A58E700A66664 /* hairCutTitle.png */,
+				A7FB303026223B3F005606E1 /* hairModel.swift */,
 				A7FB301F26211406005606E1 /* Assets.xcassets */,
 				A7FB302126211406005606E1 /* LaunchScreen.storyboard */,
+				A773E8F9262A542100A66664 /* profileImage.png */,
 				A7FB302426211406005606E1 /* Info.plist */,
 				A7FB301C26211405005606E1 /* HairHelper.xcdatamodeld */,
+				A7FB304326225D52005606E1 /* selectProfileViewController.swift */,
+				A7FB3047262288B2005606E1 /* contentViewController.swift */,
+				A7FB304B2622BD3E005606E1 /* mapSearchViewController.swift */,
 			);
 			path = HairHelper;
 			sourceTree = "<group>";
@@ -129,7 +147,9 @@
 			files = (
 				A7FB302326211406005606E1 /* LaunchScreen.storyboard in Resources */,
 				A7FB302026211406005606E1 /* Assets.xcassets in Resources */,
+				A773E8FA262A542100A66664 /* profileImage.png in Resources */,
 				A7FB301B26211405005606E1 /* Main.storyboard in Resources */,
+				A773E906262A58E700A66664 /* hairCutTitle.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -143,7 +163,11 @@
 				A7FB301826211405005606E1 /* ViewController.swift in Sources */,
 				A7FB301426211405005606E1 /* AppDelegate.swift in Sources */,
 				A7FB301626211405005606E1 /* SceneDelegate.swift in Sources */,
+				A7FB304C2622BD3E005606E1 /* mapSearchViewController.swift in Sources */,
+				A7FB303126223B3F005606E1 /* hairModel.swift in Sources */,
+				A7FB3048262288B2005606E1 /* contentViewController.swift in Sources */,
 				A7FB301E26211405005606E1 /* HairHelper.xcdatamodeld in Sources */,
+				A7FB304426225D52005606E1 /* selectProfileViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
